@@ -1,4 +1,4 @@
-﻿﻿# SOLID | Liskov Substitution Prensibi
+### SOLID | Liskov Substitution Prensibi
 
 ```
 Bu prensip adını Barbara Liskov'dan almaktadır. 
@@ -34,3 +34,12 @@ Bu proje içerisinde her uygulama için bir klasör oluşturulmuş olup
 	her uygulama için prensibin uygulanmış ve uygulanmamış hali olmak üzere iki adet class oluşturulmuştur.
 Her class içerisinde uygun açıklamalar bulunmaktadır.
 ```
+
+
+#### Referanslar
+
+* https://stackify.com/solid-design-liskov-substitution-principle/
+* https://gokhana.medium.com/liskov-substitution-prensibi-nedir-kod-%C3%B6rne%C4%9Fiyle-soli%CC%87d-3cfc1cd63c1a
+* https://code-maze.com/liskov-substitution-principle/
+* https://www.turkayurkmez.com/liskov-substitution-principle-liskov-yerdegistirme-prensibi-lsp/
+* https://www.gencayyildiz.com/blog/liskovun-yerine-gecme-prensibiliskov-substitution-principle-lsp/
