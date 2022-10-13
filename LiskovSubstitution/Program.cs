@@ -2,7 +2,7 @@
 using LiskovSubstitution;
 
 Console.WriteLine("Coffee Application Informations");
-Console.WriteLine("--------------------------------------------------------------------------------------");
+Console.WriteLine("--------------------------------------------------------------------------------------\n");
 
 var latte = new Latte();
 latte.AddSugar();
