@@ -18,4 +18,4 @@ Her class içerisinde uygun açıklamalar bulunmaktadır.
 #### Referanslar
 
 * https://gokhana.medium.com/interface-segregation-prensibi-nedir-kod-%C3%B6rne%C4%9Fiyle-soli%CC%87d-ac0fd6812ecf
-
+* https://www.oodesign.com/interface-segregation-principle

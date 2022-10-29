@@ -16,7 +16,7 @@ namespace InterfaceSegregation.AnimalApplication
     /// Ancak bütün hayvanlar interface içerisinde yer alan zorunlu metotları
     ///     dolduracak şekilde özelliklere sahip değildir.
     ///Kediler uçamaz, havlayamaz ama koşabilir.
-    ///     Bu durumda Fly() ve Bark() metotlarıu için exception fırlatmak durumunda kalmaktayız.
+    ///     Bu durumda Fly() ve Bark() metotları için exception fırlatmak durumunda kalmaktayız.
     /// Bu yüzden Interface Segregation prensibini etkili bir şekilde uygulayabilir ve 
     ///     Not Implemented halde bırakmayacağımız şekilde metotlar yazabiliriz.
     /// </summary>
