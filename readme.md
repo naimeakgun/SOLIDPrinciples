@@ -1,4 +1,5 @@
-﻿﻿### SOLID Prensipleri
+### SOLID Prensipleri
+  
 --------------- 
 ```
 Bu prensiplerin ana amacı projeler üzerindeki yeniliklere karşı en az değişiklik ve zaman kaybının
