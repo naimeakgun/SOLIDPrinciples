@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace OpenClosed.NotebookApplication
+﻿namespace OpenClosed.NotebookApplication
 {
     /// <summary>
     /// Bu örnekte Open-Closed prensibini uygulamadan notebook tiplerine göre fiyat ve renk bilgilerini döndüren iki adet metot yazılması amaçlanmıştır.

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LiskovSubstitution
+﻿namespace LiskovSubstitution
 {
     /// <summary>
     /// Burada WithoutPrinciple class dosyası içerisinde yer alan IPayment interface  ve bundan türeyen 

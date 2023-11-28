@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace InterfaceSegregation.AnimalApplication
+﻿namespace InterfaceSegregation.AnimalApplication
 {
     /// <summary>
     /// Bu örnekte Interface Segregation prensibini uygulamadan animal interface'inden türeyen 

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LiskovSubstitution.CoffeeApplication
+﻿namespace LiskovSubstitution.CoffeeApplication
 {
     /// <summary>
     /// Bu örnekte Liskov Substitution prensibini uygulamadan coffee base class'ından türeyen 

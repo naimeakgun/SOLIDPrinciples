@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace OpenClosed.InvoiceApplication
+﻿namespace OpenClosed.InvoiceApplication
 {
     /// <summary>
     /// Bu örnekte Open-Closed prensibini uygulamadan fatura tiplerine göre indirim miktarlarını döndüren bir metot yazılması amaçlanmıştır.

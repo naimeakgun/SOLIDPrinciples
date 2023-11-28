@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace OpenClosed
+﻿namespace OpenClosed
 {
     /// <summary>
     /// Open-Closed prensibine uygun olarak yazılmış bir Notebook Uygulamasıdır.
