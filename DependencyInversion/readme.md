@@ -26,6 +26,14 @@ Bu şekilde bir bağımlılık olmasının engellenmesi isteniyor.
 ```
 
 ```
+Bu prensip çalışılırken sürekli Dependency Injection kavramıyla da karşılaşırız.
+Dependency Injection bir tasarım desenidir, bağımlılıkların dışarıdan alınmasını veya
+enjekte edilmesini söyler. Dependency Inversion ise bir prensiptir ve bağımlılıkları
+soyutlamamızı ister. İşte bu noktada örnekleri de incelediğimizde aslında
+Dependency Inversion prensibi uygulanırken Dependency Injection kullanılmaktadır.
+```
+
+```
 Bu proje içerisinde her uygulama için bir klasör oluşturulmuş olup 
 	her uygulama için prensibin uygulanmış ve uygulanmamış hali olmak üzere iki adet class oluşturulmuştur.
 Her class içerisinde uygun açıklamalar bulunmaktadır.
