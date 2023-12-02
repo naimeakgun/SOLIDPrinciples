@@ -3,7 +3,13 @@
 ```
 Bu prensipte asıl amaç, kod yazarken bizden sonrakiler için uygun bir ortam oluşturmaktır.
 Yeni bir kod bloğu ekleyecekleri zaman var olanı değiştirmeden ancak ilave yapabilecekleri şekilde zemin hazırlamaktır.
-Bu şekilde temiz kod çerçevesinde yazmamız için etkili bir prensiptir diyebiliriz.
+Yani örneğin, elimizde bir ödeme metodu (Pay()) olduğunu düşündüğümüzde her ödeme tipi için if-else bloğu bulunmakta,
+	yeni bir ödeme tipi eklemek istediğimizde Pay() ana metoduna gidip yeni bir if bloğu eklememiz gerekecektir.
+	Tam da bu noktada Open-Closed Prensibi buradaki değişimin önüne geçmeyi önermektedir.
+	Ödeme Tipi şeklinde bir interface içerisinde Pay() imzası olsa ve her ödeme tipi bu interface'ten
+	türese yeni bir ödeme tipi ekleneceği veya kaldırılacağı zaman Pay() metoduna dokunmak yerine doğrudan
+	ödeme tipine dokunabileceğiz.
+Bu şekilde temiz kod çerçevesinde gelişime açık bir kod yazmamız için etkili bir prensiptir diyebiliriz.
 ```
 
 ```
