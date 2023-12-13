@@ -2,14 +2,14 @@
 {
     /// <summary>
     /// Burada WithoutPrinciple class dosyası içerisinde yer alan coffee base class ve bundan türeyen 
-    ///     kahve class'larının daha doğru sayabileceğimiz haliyle bir örnek yer almaktadır.
-    /// Liskov Subtitution Prensibi kullanılarak base'den türeyen classlar base olarak nitelendirebiliyor tümüyle artık.
+    ///     kahve class'larını LSP'ye daha uygun sayabileceğimiz haliyle bir örnek yer almaktadır.
     /// Yani Latte, hem IEspresso'dan hem de ICoffee'den türediği ve bütün özelliklerini taşıdığı için 
     ///     aynı zamanda espresso bazlıdır ve bir kahvedir diyebiliyoruz.
     /// Aynı şekilde, FilterCoffe sadece ICoffee'den türediği için aynı zamanda kahvedir diyebiliyoruz.
     ///     Not: FilterCoffee espresso bazlı olmadığı için IEspresso'dan türetilmedi. 
     ///          Farklı olarak filtre kahve bazlı olduğu için ona özel AddFilterCoffee() metodu eklendi. 
     /// Liskov sayesinde class'larda NotImplemented durumda bir metot yazma durumu oluşmadı.
+    /// Ve alt sınıflar, üst sınıfların türevidir yerine geçebilir diyebiliyoruz.
     /// </summary>
     public interface IEspresso
     {

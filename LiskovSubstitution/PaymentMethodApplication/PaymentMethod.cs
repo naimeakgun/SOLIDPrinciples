@@ -2,9 +2,7 @@
 {
     /// <summary>
     /// Burada WithoutPrinciple class dosyası içerisinde yer alan IPayment interface  ve bundan türeyen 
-    ///     ödeme class'larının daha doğru sayabileceğimiz haliyle bir örnek yer almaktadır.
-    /// Liskov Subtitution Prensibi kullanılarak interface'ten türeyen classlar base olarak 
-    ///     nitelendirebiliyor tümüyle artık.
+    ///     ödeme class'larının LSP'ye daha uygun sayabileceğimiz haliyle bir örnek yer almaktadır.
     /// Yani Cash, hem ICashPayment'tan, hem IReceipt'ten  hem de IPay'den türediği 
     ///     ve bütün özelliklerini taşıdığı için aynı anda hem nakit ödeme yapılabilen hem de makbuz alınabilen 
     ///     bir ödeme türüdür diyebiliyoruz.

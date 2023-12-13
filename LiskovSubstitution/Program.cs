@@ -17,6 +17,7 @@ mocha.AddMilk();
 Console.WriteLine("\n--------------------------------------------------------------------------------------\n");
 
 var filterCoffee = new FilterCoffee();
+filterCoffee.AddFilterCoffee();
 filterCoffee.AddSugar();
 
 

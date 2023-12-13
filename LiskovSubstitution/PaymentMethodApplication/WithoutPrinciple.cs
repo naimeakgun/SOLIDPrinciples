@@ -1,12 +1,13 @@
 ﻿namespace LiskovSubstitution.PaymentMethodApplication
 {
     /// <summary>
-    /// Bu örnekte Liskov Substitution prensibini uygulamadan IPayment interface'ten türeyen 
+    /// Bu örnekte Liskov Substitution Prensibi'ni uygulamadan IPayment interface'ten türeyen 
     ///     ödeme çeşitleri oluşturulmaya çalışılmıştır.
     /// Görüldüğü üzere IPayment base class içerisinde 2 metot imzası yer almakta. 
-    /// Bu metotlar IPayment interface'ten türeyen her yeni ödeme türünün para üstü ve makbuz verdiğini göstermektedir.
+    /// Bu metotlar IPayment interface'ten türeyen her yeni ödeme türünün para üstü 
+    ///     ve makbuz verdiğini göstermektedir.
     /// Ancak Cash ve CreditCard aynı anda bu iki özelliği gerçekleştiremez. 
-    /// CreditCard pos üzerindne ödeme aldığı için para üstü gibi bir durum söz konusu değildir.
+    /// CreditCard pos üzerinden ödeme aldığı için para üstü gibi bir durum söz konusu değildir.
     ///     Bu durumda GetRemainderOfMoney() metodu için exception fırlatmak durumunda kalmaktayız.
     /// Bu yüzden Liskov'u burada etkili bir şekilde uygulayabilir ve 
     ///     Not Implemented halde bırakmayacağımız şekilde metotlar yazabiliriz.
