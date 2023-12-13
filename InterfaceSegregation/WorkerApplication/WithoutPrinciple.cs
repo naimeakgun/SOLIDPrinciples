@@ -1,10 +1,10 @@
 ﻿namespace InterfaceSegregation.WorkerApplication
 {
     /// <summary>
-    /// Bu örnekte Interface Segregation prensibini uygulamadan worker interface'inden türeyen 
+    /// Bu örnekte Interface Segregation Prensibi uygulanmadan Worker Interface'inden türeyen 
     ///     çalışan tanımları oluşturulmaya çalışılmıştır.
-    /// Görüldüğü üzere worker interface içerisinde 3 adet metot imzası yer almakta. 
-    /// Bu metotlar worker interface'ten türeyen her yeni çalışanın
+    /// Görüldüğü üzere Worker Interface içerisinde 3 adet metot imzası yer almakta. 
+    /// Bu metotlar Worker Interface'ten türeyen her yeni çalışanın
     ///     hem çalışabildiğini, hem yemek yiyebildiğini, hem de yönetebildiğini göstermektedir. 
     /// Ancak bütün çalışanlar interface içerisinde yer alan zorunlu metotları
     ///     dolduracak şekilde özelliklere sahip değildir.

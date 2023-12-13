@@ -1,15 +1,15 @@
 ﻿namespace InterfaceSegregation.AnimalApplication
 {
     /// <summary>
-    /// Bu örnekte Interface Segregation prensibini uygulamadan animal interface'inden türeyen 
+    /// Bu örnekte Interface Segregation Prensibi uygulanmadan Animal Interface'inden türeyen 
     ///     hayvan tanımları oluşturulmaya çalışılmıştır.
-    /// Görüldüğü üzere animal interface içerisinde 4 adet metot imzası yer almakta. 
-    /// Bu metotlar animal interface'ten türeyen her yeni hayvan türünün 
+    /// Görüldüğü üzere Animal Interface içerisinde 4 adet metot imzası yer almakta. 
+    /// Bu metotlar Animal Interface'ten türeyen her yeni hayvan türünün 
     ///     hem uçabildiğini, hem havlayabilidiğini, hem yüzebildiğini 
     ///     hem de koşabildiğini göstermektedir.
     /// Ancak bütün hayvanlar interface içerisinde yer alan zorunlu metotları
     ///     dolduracak şekilde özelliklere sahip değildir.
-    ///Kediler uçamaz, havlayamaz ama koşabilir.
+    /// Kediler uçamaz, havlayamaz ama koşabilir.
     ///     Bu durumda Fly() ve Bark() metotları için exception fırlatmak durumunda kalmaktayız.
     /// Bu yüzden Interface Segregation prensibini etkili bir şekilde uygulayabilir ve 
     ///     Not Implemented halde bırakmayacağımız şekilde metotlar yazabiliriz.

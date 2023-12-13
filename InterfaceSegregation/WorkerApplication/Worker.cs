@@ -1,8 +1,8 @@
 ﻿namespace InterfaceSegregation
 {
     /// <summary>
-    /// Burada WithoutPrinciple class dosyası içerisinde yer alan worker interface ve bundan türeyen 
-    ///     class'ları daha doğru sayabileceğimiz haliyle bir örnek yer almaktadır.
+    /// Burada WithoutPrinciple class dosyası içerisinde yer alan Worker Interface ve bundan türeyen 
+    ///     class'lar Interface Segregation Prensibi'ne daha uygun sayabileceğimiz haliyle bir örnek yer almaktadır.
     /// Interface Segregation prensibi kullanılarak interface'ten türeyen classlar gerçekten sergileyebilecekleri
     ///     davranışların metotlarını implemente etme zorunluluğuna sahip oldular.
     /// Çünkü çalışanları tek bir interface'te toplamak yerine, özelliklerine göre sınıflandırmış olduk.
