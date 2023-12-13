@@ -2,7 +2,7 @@
 
 ```
 Öncelikle, bu prensip için ana tanım aşağıdaki gibidir. Ve tanımda ifade edilen ana düşünce; 
-class bağımlılıklarının indirgenmesi için kullanılacak yöntemin interface'ler yönünde olması gerekliliğidir.
+class bağımlılıklarının indirgenmesi için kullanılacak yöntemin soyutlama/interface kullanımı yönünde olması gerekliliğidir.
 ```
 
 >  High level modules should not depend on low level modules; 
@@ -16,15 +16,15 @@ bir yapıya indirgenebilmesi amaçlanmıştır.
 
 ```
 Birbirine bağlı olan class'lardan kasıt şu şekildedir:
-Bir ihtiyaca yönelik yazılmış bir class var elimizde. (Düşük seviyede kalıyor)
-Başka bir class da bu class'ı çağırıp kullanmakta. (Yüksek seviyede kalıyor)
-Bu durumda yüksek seviye class, düşük seviye class'a bağımlı oluyor doğal olarak.
-Düşük seviye class'ta bir değişiklik olması durumunda bu class'ın kullanıldığı yüksek seviyeli 
-class içerisinde de değişiklik yapılması gerekecektir.
-Tam da bu noktada bu prensip devreye giriyor.
-Bu şekilde bir bağımlılık olmasının engellenmesi isteniyor.
+	Bir ihtiyaca yönelik yazılmış bir class var elimizde. (Düşük seviyede kalıyor)
+	Başka bir class da bu class'ı çağırıp kullanmakta. (Yüksek seviyede kalıyor)
+	Bu durumda yüksek seviye class, düşük seviye class'a bağımlı oluyor doğal olarak.
+	Düşük seviye class'ta bir değişiklik olması durumunda bu class'ın kullanıldığı yüksek seviyeli 
+	class içerisinde de değişiklik yapılması gerekecektir.
+	Tam da bu noktada bu prensip devreye giriyor.
+	Bu şekilde bir bağımlılık olmasının engellenmesi isteniyor.
 ```
-
+###### Dependency Injection & Dependency Inversion
 ```
 Bu prensip çalışılırken sürekli Dependency Injection kavramıyla da karşılaşırız.
 Dependency Injection bir tasarım desenidir, bağımlılıkların dışarıdan alınmasını veya

@@ -8,6 +8,7 @@
     /// Dependency Inversion prensibi kullanılarak High Level class'ın Low Level class'a bağımlılığı
     ///     interface kullanılarak soyutlaştırılmış olup, bu iki class arasındaki doğrudan bağlantı ortadan 
     ///     kaldırılmıştır.
+    /// EmailService ve SMSService içerisindeki Send metotlarının nasıl çağırıldığına Program.cs içerisinden bakabilirsiniz.
     /// </summary>
     ///
     public interface IMessage
@@ -15,11 +16,24 @@
         public string FixCharacters(string message);
     }
 
-    public class Message : IMessage
+    public class EmailMessage : IMessage
     {
         public string FixCharacters(string message)
         {
-            Console.WriteLine("fixing characters");
+            Console.WriteLine("fixing characters for Email");
+
+            //....fixing characters
+            string fixedMessage = message;
+
+            return fixedMessage;
+        }
+    }
+
+    public class SMSMessage : IMessage
+    {
+        public string FixCharacters(string message)
+        {
+            Console.WriteLine("fixing characters for SMS");
 
             //....fixing characters
             string fixedMessage = message;

@@ -5,11 +5,12 @@
     ///     metodu kullandığı için bu class'a bağımlı olan MongoDbService class arasındaki ilişkiyi kurarken
     ///     bağımlılığı Dependency Inversion Prensibi'ne göre daha doğru sağlayabileceğimiz haliyle
     ///     bir örnek yer almaktadır.
-    /// Dependency Inversion prensibi kullanılarak High Level class'ın Low Level class'a bağımlılığı
+    /// Dependency Inversion Prensibi kullanılarak High Level class'ın Low Level class'a bağımlılığı
     ///     interface kullanılarak soyutlaştırılmış olup, bu iki class arasındaki doğrudan bağlantı ortadan 
     ///     kaldırılmıştır.
+    /// MongoDbService içerisindeki Connect metodunun bu haliyle nasıl çağırıldığına Program.cs içerisinden bakabilirsiniz.
     /// </summary>
-    ///
+
     public interface IDatabase
     {
         void Connect(string connectionString);

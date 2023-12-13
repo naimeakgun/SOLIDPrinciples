@@ -1,18 +1,19 @@
 ﻿namespace DependencyInversion.MessageApplication
 {
     /// <summary>
-    /// Bu örnekte Dependency Inversion prensibini uygulamadan 1 adet Low Level ve 2 adet High Level olmak üzere 
-    ///     class'lar ve çağrılma durumu olacak şekilde 1 metot oluşturulmuştur.
+    /// Bu örnekte Dependency Inversion prensibi uygulanmadan 1 adet Low Level ve 2 adet High Level olmak üzere 
+    ///     class'lar ve çağrılma durumu olacak şekilde 1 adet metot oluşturulmuştur.
     /// Low Level Class: Message
     /// Higs Level Class'lar: EmailService ve SMSService
     /// Low Level class'ı içerisinde FixCharacters metodu oluşturulmuş olup High Level class'lar tarafından
     ///     çağırılıp kullanılması sağlanmıştır.
-    ///     Bu da High Level class'larımızın Low Level class'a bağımlı olduğunu göstermekte.
-    ///     Bu metotta bir değişiklik olması durumunda doğrudan High Level class'lar da etkilenecektir.
-    /// Dependency Inversion prensibi bu bağımlılığı Low Level - High Level ilişkisinden Low Level - Abstraction - High Level
+    ///     Bu da High Level class'larımızın Low Level class'a doğrudan bağımlı olduğunu göstermekte.
+    /// Dependency Inversion Prensibi bu bağımlılığı Low Level-High Level ilişkisinden Low Level-Abstraction-High Level
     ///     ilişkisi şeklinde değiştirmemizin daha iyi olabileceğini söylemektedir.
     ///     Yani High Level class'lar Low Level class'lara doğrudan bağımlı olmasın arada interface katmanı olsun istenmektedir.
     /// </summary>
+
+    //Low Level Class
     public class Message
     {
         public string FixCharacters(string message)
@@ -24,6 +25,8 @@
         }
     }
 
+
+    //High Level Class
     public class EmailService
     {
         private string To;

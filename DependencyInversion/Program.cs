@@ -23,11 +23,11 @@ Console.WriteLine("\n-----------------------------------------------------------
 Console.WriteLine("Message Application Informations");
 Console.WriteLine("---------------------------------- Sending Email ---------------------------------------\n");
 
-var emailService = new EmailService("to", "cc", "bcc", "sending message", new Message());
+var emailService = new EmailService("to", "cc", "bcc", "sending message", new EmailMessage());
 emailService.SendEmail();
 
 Console.WriteLine("---------------------------------- Sending SMS ------------------------------------------\n");
 
 
-var smsService = new SMSService("phone number", "sending message", new Message());
+var smsService = new SMSService("phone number", "sending message", new SMSMessage());
 smsService.SendSMS();
