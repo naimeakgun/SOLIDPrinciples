@@ -1,7 +1,7 @@
 ﻿namespace DependencyInversion.MessageApplication
 {
     /// <summary>
-    /// Bu örnekte Dependency Inversion prensibi uygulanmadan 1 adet Low Level ve 2 adet High Level olmak üzere 
+    /// Bu örnekte Dependency Inversion Prensibi uygulanmadan 1 adet Low Level ve 2 adet High Level olmak üzere 
     ///     class'lar ve çağrılma durumu olacak şekilde 1 adet metot oluşturulmuştur.
     /// Low Level Class: Message
     /// Higs Level Class'lar: EmailService ve SMSService

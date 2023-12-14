@@ -1,7 +1,7 @@
 ﻿namespace DependencyInversion.DatabaseApplication
 {
     /// <summary>
-    /// Bu örnekte Dependency Inversion prensibi uygulanmadan 1 adet Low Level ve 1 adet High Level olmak üzere 
+    /// Bu örnekte Dependency Inversion Prensibi uygulanmadan 1 adet Low Level ve 1 adet High Level olmak üzere 
     ///     class'lar ve çağrılma durumu olacak şekilde 1 adet metot oluşturulmuştur.
     /// Low Level Class: Database
     /// Higs Level Class: MongoDbService
