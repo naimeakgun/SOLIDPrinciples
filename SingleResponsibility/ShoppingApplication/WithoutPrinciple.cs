@@ -1,11 +1,11 @@
 ﻿namespace SingleResponsibility.ShoppingApplication
 {
     // <summary>
-    /// Bu örnekte Single Responsibility prensibi uygulanmadan bir Shopping uygulaması oluşturulmuştur.
-    /// Shopping Class içerisinde yer alması gereken AddCart ve CreateOrder işlemleri dışında ayrıca loglamalar yapılmış
-    ///      ve mail gönderim işlemi de yazılmıştır.
+    /// Bu örnekte Single Responsibility Prensibi uygulanmadan bir Shopping uygulaması oluşturulmuştur.
+    /// Shopping class içerisinde yer alması gereken AddCart ve CreateOrder işlemleri dışında ayrıca loglamalar yapılmış
+    ///      ve mail gönderim işlemi de yapılmıştır.
     /// Bu durumda Shopping işlemi olmayan loglama ve mail gönderim işlemleri, Shopping için ekstra bir yükümlülük oluşturmuş
-    ///     olup Single Responsibility prensibine uyum sağlamamaktadır diyebiliriz.
+    ///     olup Single Responsibility Prensibi'ne uyum sağlamamaktadır diyebiliriz.
     /// </summary>
     public class Shopping
     {

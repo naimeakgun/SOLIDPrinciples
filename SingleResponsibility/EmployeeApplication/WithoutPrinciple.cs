@@ -3,12 +3,13 @@
 namespace SingleResponsibility.EmployeeApplication
 {
     // <summary>
-    /// Bu örnekte Single Responsibility prensibi uygulanmadan bir Employee uygulaması oluşturulmuştur.
+    /// Bu örnekte Single Responsibility Prensibi uygulanmadan bir Employee uygulaması oluşturulmuştur.
     /// Employee Class içerisinde Register metoduyla Employee kaydı gerçekleştirilmektedir.
     /// Ancak Employee içerisinde Company için gerekli bir işlem metodu da yer almakta ve Register metodu içerisinde 
     ///     id-card oluşturma işlemleri de yapılmaktadır.
-    /// Bu durumda Employee işlemi olmayan; company üzerinde kayıt ve id-card oluşturma işlemleri, Employee için
-    ///     ekstra bir yükümlülük oluşturmuş olup Single Responsibility prensibine uyum sağlamamaktadır diyebiliriz.
+    /// Bu durumda aslında Employee işlemi olmayan; Company üzerinde kayıt ve id-card oluşturma işlemleri,
+    ///     Employee için ekstra bir yükümlülük oluşturmuş olup Single Responsibility prensibine uyum sağlamamaktadır 
+    ///     diyebiliriz.
     /// </summary>
     public class Employee
     {
@@ -28,7 +29,7 @@ namespace SingleResponsibility.EmployeeApplication
 
         public void RegisterToCompany()
         {
-            //Send employee information to company
+            //Sending employee information to company
         }
     }
 }

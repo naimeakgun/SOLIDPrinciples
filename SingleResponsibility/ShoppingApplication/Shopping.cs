@@ -1,7 +1,7 @@
 ﻿namespace SingleResponsibility
 {
     /// <summary>
-    /// Single Responsibility prensibine uygun olarak yazılmış bir Shopping Uygulamasıdır.
+    /// Single Responsibility Prensibi'ne uygun olarak yazılmış bir Shopping uygulamasıdır.
     /// Toplamda 3 farklı class oluşturuldu:
     ///     Shopping, EmailSender ve Logger.
     /// Bu sayede her class ve metot kendi sorumluluğunu üstlendi.

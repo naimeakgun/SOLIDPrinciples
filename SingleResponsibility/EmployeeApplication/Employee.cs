@@ -3,7 +3,7 @@
 namespace SingleResponsibility
 {
     /// <summary>
-    /// Single Responsibility prensibine uygun olarak yazılmış bir Employee Uygulamasıdır.
+    /// Single Responsibility Prensibi'ne uygun olarak yazılmış bir Employee Uygulamasıdır.
     /// Toplamda 3 farklı class oluşturuldu:
     ///     Employee, Company ve Card.
     /// Bu sayede her class ve metot kendi sorumluluğunu üstlendi.
