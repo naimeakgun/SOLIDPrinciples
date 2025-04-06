@@ -2,10 +2,9 @@
   
 --------------- 
 ```
-Bu prensiplerin ana amacı projeler üzerindeki yeniliklere karşı en az değişiklik ve zaman kaybının
+Bu prensiplerin ana amacı, projeler üzerindeki yeniliklere karşı en az değişiklik ve zaman kaybının
 sağlanarak geliştirilme yapılmasıdır. 
-Yeni bir özellik istendiğinde projede minimum değişiklik yapılarak gerçekleştirilsin düşüncesi ile
-ortaya çıkmıştır.
+Projeye yeni bir özellik eklenmek istenildiğinde projede minimum değişiklik yapılarak gerçekleştirilsin düşüncesi ile ortaya çıkmıştır.
 ```
 
 

@@ -1,11 +1,11 @@
 ﻿### SOLID | Single Responsibility Prensibi
 
 ```
-Bu prensip'te sınıflara veya metotlara yüklediğimiz sorumlukları azaltmaya çalışarak kod okunaklılığının
+Bu prensipte sınıflara veya metotlara yüklediğimiz sorumlukları azaltmaya çalışarak kod okunaklılığının
 	ve bağımlılıklarının minimalize edilmesi amaçlanmıştır.
 
 Prensibe göre her sınıfın sadece bir sorumluluğu olmalı ve sınıftaki her şey bir amaç ile ilişkilendirilmelidir.
-Yani bir çalışmada birçok sorumluğu tek bir sınıfa veya metoda yüklemek yerine, her biri tek bir sorumluluğa sahip 
+Yani, bir çalışmada birçok sorumluğu tek bir sınıfa veya metoda yüklemek yerine; her biri tek bir sorumluluğa sahip 
 	olacak şekilde çalışmalar içeren sınıf veya metotlar oluşturulmalıdır.
 	Bu sayede gereksinimler değiştikçe, bağımlılığı minimalize edilmiş sınıf ve metotlar üzerinde
 	değişmesi gereken kısımlar kolay tespit edilebilir ve değiştirilebilir olacaktır.

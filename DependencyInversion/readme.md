@@ -10,7 +10,7 @@ class bağımlılıklarının indirgenmesi için kullanılacak yöntemin soyutla
    Details should depend upon abstractions.
 
 ```
-Aynı zamanda bu prensip'te birbirine bağlı olan class'ların bağımlılıklarının kodu değiştirmeyecek 
+Aynı zamanda bu prensipte birbirine bağlı olan class'ların bağımlılıklarının kodu değiştirmeyecek 
 bir yapıya indirgenebilmesi amaçlanmıştır.
 ```
 

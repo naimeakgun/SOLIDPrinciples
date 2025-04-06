@@ -1,7 +1,7 @@
 ﻿### SOLID | Interface Segregation Prensibi
 
 ```
-Bu prensip'te interface'lere yüklediğimiz sorumlukları azaltmaya çalışmak ve bu sayede
+Bu prensipte interface'lere yüklediğimiz sorumlulukları azaltmaya çalışmak ve bu sayede
 kod okunaklılığını arttırmaya yönelik bir davranış mekanizması benimsenmiştir.
 
 Yani bir çalışmada bütün sorumlulukları tek bir interface'e yüklemek yerine görevlerine göre

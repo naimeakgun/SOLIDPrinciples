@@ -1,7 +1,7 @@
 ### SOLID | Liskov Substitution Prensibi (LSP)
 
 ```
-Bu prensip adını Barbara Liskov'dan almaktadır. Başka diğer deyişle "Yerine Geçme Prensibi" şeklinde bilinmektedir.
+Bu prensip adını Barbara Liskov'dan almaktadır. Başka bir deyişle "Yerine Geçme Prensibi" şeklinde bilinmektedir.
 MIT'de profesor olan Liskov, 80'li yıllarda çıkardığı bir kitabında ilk defa bu prensipten bahsetmiştir.
 Kitabında yer alan açıklama tamamen matematiksel bir dilde olup çoğu insan tarafından açıklayıcı bulunmamıştır.
 Birçok türk/yabancı blog yazarı olabildiğince açık ifadeler paylaşmaya çalışmıştır.
